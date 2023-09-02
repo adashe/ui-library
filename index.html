@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>UI Library</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- tooltip -->
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, viverra hendrerit vitae natoque tellus iaculis, a <span class="tooltip" data-message="This is Latin!">illum aspernatur</span> vivamus quam luctus egestas blandit. Nam volutpat cubilia aptent lacus massa taciti, justo ac dui pellentesque vehicula, velit tempor in rhoncus magna. In velit aliquam sem facilisis vestibulum quisque nec, iaculis luctus tristique fusce maecenas nullam ut netus, pellentesque non a morbi himenaeos vitae.</p>
+
+        <h2>Services</h2>
+        <!-- dropdown -->
+        <div class="dropdown">
+            <div class="trigger">Volutpat Habitasse</div>
+            <div class="content">
+                <p>Volutpat habitasse enim magnis sed natoque phasellus lacinia vehicula, hac nascetur vitae eget nostra praesent eu. Auctor netus eros himenaeos in convallis tincidunt dignissim varius, habitant luctus molestie lobortis sed ornare laoreet parturient, hendrerit conubia sem cum sollicitudin tellus morbi. Fringilla cubilia suscipit pretium tempus cursus bibendum nec penatibus, integer sociosqu dignissim dis lectus eleifend vivamus parturient, velit in habitasse inceptos rutrum placerat quisque.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="trigger">Pretium Nisi Fermentum</div>
+            <div class="content">
+                <p>Pretium nisi fermentum pharetra arcu blandit morbi bibendum odio maecenas senectus porttitor integer gravida, mus ullamcorper eleifend congue platea in est ultrices ultricies venenatis elementum fringilla. Inceptos nec enim magna nam arcu aenean scelerisque senectus at viverra, netus venenatis luctus tellus nisi massa pretium a per ullamcorper libero, rutrum maecenas aliquet ultrices porta elementum convallis dis habitasse. Rhoncus justo aliquet condimentum habitant ridiculus ac malesuada odio luctus sagittis, fermentum fusce molestie a tempor ultrices curabitur risus porta, ullamcorper aptent feugiat ut nunc nibh quam sapien hac.</p>
+            </div>
+        </div>
+
+        <h2>More Information</h2>
+        <!-- tabs -->
+        <div class="tabs">
+            <ul>
+                <li class="trigger active" data-target="#about">About</li>
+                <li class="trigger" data-target="#delivery">Delivery</li>
+                <li class="trigger" data-target="#returns">Returns</li>
+            </ul>
+            <div id="about" class="content active">
+                <h3>about</h3>
+                <p>Vitae nec tincidunt a tristique fames nunc congue quisque magnis, conubia ut nullam felis ultricies fringilla penatibus cras. Dignissim habitant suspendisse rhoncus consequat suscipit inceptos egestas dis nulla tempor enim, ultricies aptent eleifend proin libero id auctor lobortis elementum viverra, platea maecenas donec semper cum tortor volutpat imperdiet facilisis ullamcorper.</p>
+            </div>
+            <div id="delivery" class="content">
+                <h3>delivery</h3>
+                <p>Placerat netus aptent enim risus aliquam potenti litora tincidunt cursus, parturient dictumst diam vehicula imperdiet iaculis non magnis vulputate in, ad pretium nec ut torquent luctus lobortis massa.</p>
+            </div>
+            <div id="returns" class="content">
+                <h3>returns</h3>
+                <p>Vivamus aenean praesent natoque parturient felis dapibus congue ante, elementum lacus convallis a interdum id orci mattis platea, facilisi urna phasellus erat rutrum sem curae. </p>
+            </div>
+        </div>
+        <div>
+            <button class="snackbar-trigger">click me</button>
+        </div>
+    </div>
+
+    <script src="scripts/tooltip.js"></script>
+    <script src="scripts/dropdown.js"></script>
+    <script src="scripts/tabs.js"></script>
+    <script src="scripts/snackbar.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
